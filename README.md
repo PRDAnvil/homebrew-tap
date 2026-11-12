@@ -1,7 +1,7 @@
 # PRDAnvil Homebrew Tap
 
 The Homebrew tap for [PRD Studio](https://prdanvil.com), a native macOS app for writing and
-running [prd-toolkit](https://github.com/ihistand/claude-plugins) product requirements documents.
+running [prd-toolkit](https://github.com/PRDAnvil/prd-toolkit) product requirements documents.
 Requires macOS 13 (Ventura) or later.
 
 ## Install
@@ -32,8 +32,8 @@ PRD Studio works on prd-toolkit PRDs in your git repositories. It runs the toolk
 
 ```bash
 brew install uv
-claude plugin marketplace add ihistand/claude-plugins
-claude plugin install prd-toolkit@ihistand
+claude plugin marketplace add PRDAnvil/prd-toolkit
+claude plugin install prd-toolkit@prdanvil
 ```
 
 ### With Incise (optional)

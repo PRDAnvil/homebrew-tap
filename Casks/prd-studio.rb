@@ -24,7 +24,7 @@ cask "prd-studio" do
   caveats <<~EOS
     PRD Studio runs prd-toolkit's scripts with uv and hands builds to Claude Code:
       brew install uv
-      claude plugin marketplace add ihistand/claude-plugins
-      claude plugin install prd-toolkit@ihistand
+      claude plugin marketplace add PRDAnvil/prd-toolkit
+      claude plugin install prd-toolkit@prdanvil
   EOS
 end

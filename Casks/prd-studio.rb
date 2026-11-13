@@ -1,6 +1,6 @@
 cask "prd-studio" do
-  version "0.1.0"
-  sha256 "8a820f5b03563bd3aa585ba7d6cc0f31a58d9d775c536d4ae0a0f4fcb3e21028"
+  version "0.2.0"
+  sha256 "868b1d0b943db516b767fe1586e312b7f5860e6b0ec60139d72795b6544fe7dc"
 
   url "https://github.com/PRDAnvil/homebrew-tap/releases/download/v#{version}/PRDStudio.dmg"
   name "PRD Studio"

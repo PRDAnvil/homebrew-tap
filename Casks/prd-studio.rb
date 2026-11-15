@@ -1,13 +1,13 @@
 cask "prd-studio" do
-  version "0.2.0"
-  sha256 "868b1d0b943db516b767fe1586e312b7f5860e6b0ec60139d72795b6544fe7dc"
+  version "0.3.0"
+  sha256 "e6dee898b710a5d3f51695845a4e8a266bff6f2c1b3b18c7e6aa7a297881efe5"
 
   url "https://github.com/PRDAnvil/homebrew-tap/releases/download/v#{version}/PRDStudio.dmg"
   name "PRD Studio"
   desc "Editor for prd-toolkit product requirements documents"
   homepage "https://prdanvil.com/"
 
-  depends_on macos: :ventura
+  depends_on macos: :tahoe
 
   app "PRDStudio.app"
 
